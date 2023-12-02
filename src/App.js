@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Link, Route, Routes } from 'react-router-dom';
+import { NavLink, Link, Route, Routes } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Courses from './pages/Courses';
@@ -10,12 +10,12 @@ function App() {
     <div className="container">
       <nav>
         <ul>
-          <Link to="/" class="list">
+          <NavLink to="/" class="list">
             Home
-          </Link>
-          <Link to="/courses" class="list">
+          </NavLink>
+          <NavLink to="/courses" class="list">
             Courses
-          </Link>
+          </NavLink>
         </ul>
       </nav>
 
