@@ -2,7 +2,9 @@ import React from 'react';
 
 function Courses() {
   return (
-    <div>Courses Page</div>
+    <div className="page-container flex">
+      <h1>Courses Page</h1>
+    </div>
   )
 }
 
