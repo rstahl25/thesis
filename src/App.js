@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import { NavLink, Link, Route, Routes } from 'react-router-dom';
+import { NavLink, Route, Routes } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Courses from './pages/Courses';
