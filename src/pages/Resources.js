@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Home() {
+function Resources() {
   return (
     <div className="page-container flex">
-      <h1>Home Page</h1>
+      <h1>Resources Page</h1>
     </div>
   )
 }
 
-export default Home;
+export default Resources;
