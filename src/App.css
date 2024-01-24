@@ -1,5 +1,5 @@
 nav{
-  margin: 10px;
+  margin: 1rem;
 }
 
 ul {
@@ -12,7 +12,7 @@ ul {
 
 a {
   text-decoration: none;
-  padding-left: 10px;
+  padding-left: 4vw;
   color: aliceblue;
   margin-left: 10vw;
   font-size: 1.4rem;
